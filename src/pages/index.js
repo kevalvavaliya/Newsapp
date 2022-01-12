@@ -1,4 +1,5 @@
 import React from "react"
+import FormComponent from './FormComponent'
 import { Card,Button,Container,Row } from 'react-bootstrap';
 import { graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -27,10 +28,10 @@ const NewsComponent = ({ data }) => {
               </Card>
             )
           })}
-
         </Row>
       </Container>
     </Container>
+    <FormComponent/>
     </>
   )
 }
