@@ -4,6 +4,9 @@
   "private": true,
   "description": "Newsapp",
   "author": "keval vavaliya",
+  "engines": {
+    "node": "14.17.3"
+  },
   "keywords": [
     "gatsby"
   ],
