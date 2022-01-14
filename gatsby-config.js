@@ -18,6 +18,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
+    'gatsby-plugin-image',
     "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",

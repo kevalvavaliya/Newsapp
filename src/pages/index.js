@@ -15,6 +15,7 @@ const index = () => {
       <Routes>
         <Route exact path="/" element={<News />} />
         <Route exact path="/ShowArticle/:id" element={<ShowArticle />} />
+      
       </Routes>
     </Router>
   )

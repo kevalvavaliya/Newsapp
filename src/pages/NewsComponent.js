@@ -3,6 +3,7 @@ import FormComponent from './FormComponent'
 import { useQuery } from "./useQuery"
 import { Container, Row } from 'react-bootstrap';
 import ArticleComponent from "./ArticleComponent"
+import Translator from './Translator';
 const NewsComponent = () => {
 
     const data = useQuery();
@@ -25,7 +26,9 @@ const NewsComponent = () => {
         </Container>
   
         {/* ADDING FORM COMPONENT */}
-        <FormComponent />
+        <FormComponent title="Text form input" functionality={true}/>
+
+        <Translator />
       </>
     )
   }
